@@ -1,0 +1,32 @@
+﻿# Datos originales e intermedios: conservar localmente
+/data/raw/
+/data/interim/
+/proteins/
+
+# Resultados generados: incorporar solo tras revisión explícita
+/results/
+
+# Logs de ejecución
+/logs/
+
+# Metadatos analíticos pendientes de revisión
+/metadata/
+
+# Entornos y archivos locales
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Copias de seguridad y variantes de scripts
+*.bak
+*.new
+*.pre_resume_*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
